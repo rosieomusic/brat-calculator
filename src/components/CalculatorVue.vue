@@ -129,6 +129,8 @@ button {
   -webkit-user-select: none;
   user-select: none;
   outline: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 button:hover {
@@ -139,6 +141,9 @@ button:hover {
 button:focus, button:active {
   outline: none;
   -webkit-tap-highlight-color: transparent;
+  color: inherit; /* Ensures the text color remains unchanged */
+  text-decoration: none; /* Prevents any text decoration */
+  background-color: #8ACE00; /* Reverts to original background color */
 }
 
 footer{
