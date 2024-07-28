@@ -4,8 +4,6 @@
             brat calculator
         </h1>
     </header>
-    <!--- Stop iOS detecting telephone numbers --------->
-    <meta name="format-detection" content="telephone=no">
     <div class="calculator-box">
     <div class="calculator">
         <div class="display">{{ display }}</div>
