@@ -67,15 +67,15 @@ export default{
       }
     },
     playSound(sound) {
-     
       const audio = new Audio(sound);
-      audio.play();
+      audio.play().catch(error => {
+        console.error('Error playing sound:', error);
+      });
     },
-    mounted(){
-
-    }
   },
-       
+  mounted() {
+    console.log('Calculator component has been mounted');
+  },
 };
 </script>
 <style>
