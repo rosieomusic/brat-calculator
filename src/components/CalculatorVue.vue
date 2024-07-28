@@ -26,7 +26,7 @@ export default{
         return {
             display: '',
             buttons: [
-                {label: '1', value: '1', sound:'dist/sounds/girl.wav'},
+                {label: '1', value: '1', sound:'./dist/sounds/girl.wav'},
                 {label: '2', value: '2', sound:'dist/sounds/2.wav'},
                 {label: '3', value: '3', sound:'dist/sounds/3b.wav'},
                 {label: '+', value: '+', sound:'dist/sounds/bumpin-that-a.wav'},
