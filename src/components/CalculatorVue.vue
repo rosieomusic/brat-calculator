@@ -132,7 +132,23 @@ button:hover {
 }
 
 footer{
+  color: #ccc;
     margin-left: 100px;
+}
+
+@media only screen and (max-width: 425px) {
+  button {
+  font-family: Arial;
+  font-weight: 800;
+  padding: 20px;
+  font-size: 18px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #8ACE00;
+  cursor: pointer;
+}
+
+  
 }
 
 
