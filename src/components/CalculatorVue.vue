@@ -29,7 +29,7 @@ export default{
                 {label: '1', value: '1', sound:'vue-project/public/sounds/girl.wav'},
                 {label: '2', value: '2', sound:'vue-project/public/sounds/2.wav'},
                 {label: '3', value: '3', sound:'vue-project/public/sounds/3b.wav'},
-                {label: '+', value: '+', sound: 'vue-project/public/sounds/bumpin-that-a.wav'},
+                {label: '+', value: '+', sound:'vue-project/public/sounds/bumpin-that-a.wav'},
                 {label: '4', value: '4', sound:'vue-project/public/sounds/4b.wav'},
                 {label: '5', value: '5', sound:'vue-project/public/sounds/5.wav'},
                 {label: '6', value: '6', sound:'vue-project/public/sounds/6.wav'},
@@ -67,6 +67,7 @@ export default{
       }
     },
     playSound(sound) {
+     
       const audio = new Audio(sound);
       audio.play();
     },
