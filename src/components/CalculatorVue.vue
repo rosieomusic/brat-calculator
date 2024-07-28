@@ -125,10 +125,20 @@ button {
   border-radius: 5px;
   background-color: #8ACE00;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  outline: none;
 }
+
 button:hover {
   background-color: black;
   color: white;
+}
+
+button:focus, button:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 footer{
