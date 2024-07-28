@@ -26,7 +26,7 @@ export default{
         return {
             display: '',
             buttons: [
-                {label: '1', value: '1', sound:'vue-project/src/assets/sounds/girl.wav'},
+                {label: '1', value: '1', sound:'vue-project/public/sounds/girl.wav'},
                 {label: '2', value: '2', sound:'vue-project/public/sounds/2.wav'},
                 {label: '3', value: '3', sound:'vue-project/public/sounds/3b.wav'},
                 {label: '+', value: '+', sound: 'vue-project/public/sounds/bumpin-that-a.wav'},
