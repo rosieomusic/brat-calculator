@@ -3,6 +3,6 @@ import vue from '@vitejs/plugin-vue';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: 'brat-calculator/vue-project/',
+	base: '/brat-calculator/',
 	plugins: [vue()],
 });
