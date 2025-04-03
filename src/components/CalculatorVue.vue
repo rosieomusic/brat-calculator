@@ -21,6 +21,7 @@
 </template>
 
 <script>
+	import { evaluate } from 'mathjs';
 	export default {
 		data() {
 			return {
@@ -61,7 +62,7 @@
 			},
 			calculate() {
 				try {
-					this.display = eval(this.display);
+					this.display = evaluate(this.display);
 				} catch (e) {
 					this.display = 'Error';
 				}
