@@ -99,7 +99,7 @@
 		},
 	};
 </script>
-<style>
+<style scoped>
 	h1 {
 		display: flex;
 		justify-content: center;
